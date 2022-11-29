@@ -25,7 +25,7 @@
         <div class="col-12 hero-text-image">
           <div class="row">
             <div class="col-lg-8 text-center text-lg-start">
-              <h1 data-aos="fade-right">Automatisation du processus de cotation des assurances de transports</h1><a data-aos="fade-right" class="btn btn-outline-light" href="{{route("admin")}}">Connexion</a>
+              <h1 data-aos="fade-right">Bienvenue sur FREE'Q</h1><a data-aos="fade-right" class="btn btn-outline-light" href="{{route("admin")}}">Connexion</a>
             </div>
           </div>
         </div>
