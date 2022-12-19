@@ -93,9 +93,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (0.15/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -141,8 +141,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -172,7 +172,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -229,9 +229,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (0.2/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -276,8 +276,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -365,9 +365,9 @@ class EarthController extends Controller
                 
                 $prime_nette = $data['val_voyage'] * (0.30/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -412,8 +412,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -443,7 +443,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -526,9 +526,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (0.2/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -573,8 +573,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -604,7 +604,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -661,9 +661,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (0.3/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -708,8 +708,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -739,7 +739,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -797,9 +797,9 @@ class EarthController extends Controller
                 
                 $prime_nette = $data['val_voyage'] * (0.4/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -844,8 +844,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -875,7 +875,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -959,9 +959,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (floatval($data['taux'])/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -1006,8 +1006,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -1037,7 +1037,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -1094,9 +1094,9 @@ class EarthController extends Controller
 
                 $prime_nette = $data['val_voyage'] * (floatval($data['taux'])/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -1141,8 +1141,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -1172,7 +1172,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }
@@ -1230,9 +1230,9 @@ class EarthController extends Controller
                 
                 $prime_nette = $data['val_voyage'] * (floatval($data['taux'])/100) * $data['nbre_cam_voy'];
 
-                if($data['garantie_chargement'] == 1){
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                if(isset($data['garantie_chargement'])){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.50;
                             }
@@ -1277,8 +1277,8 @@ class EarthController extends Controller
                     }
                 }
                 else{
-                    if($data['transp_prof'] == 1){
-                        if($data['etat_route'] == 1){
+                    if(isset($data['transp_prof'])){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.40;
                             }
@@ -1308,7 +1308,7 @@ class EarthController extends Controller
                         }
                     }
                     else{
-                        if($data['etat_route'] == 1){
+                        if(isset($data['etat_route'])){
                             if($data['nbre_cam_voy'] < 10){
                                 $prime_nette = $prime_nette * 1.20;
                             }

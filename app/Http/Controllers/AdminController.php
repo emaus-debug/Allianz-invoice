@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Earth;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
     public function admin()
     {
-        return view('backend.index');
+        $earths = Earth::orderBy('id')->get();
+        return view('backend.index', compact('earths'));
     }
 }

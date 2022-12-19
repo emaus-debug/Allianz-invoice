@@ -70,23 +70,23 @@
                                                 </tr>
                                                 <tr>
                                                     <th scope="row" class="p-1">Valeur assurée par voyage :</th>
-                                                    <td class="p-1">{{$earth->val_voyage}}</td>
+                                                    <td class="p-1">{{number_format($earth->val_voyage,0,","," ")}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row" class="p-1">Prime nette :</th>
-                                                    <td class="p-1">{{round($earth->prime_nette,2)}}</td>
+                                                    <td class="p-1">{{number_format(round($earth->prime_nette,2),0,","," ")}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row" class="p-1">Accessoires :</th>
-                                                    <td class="p-1">{{$earth->accessoire}}</td>
+                                                    <td class="p-1">{{number_format($earth->accessoire,0,","," ")}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row" class="p-1">Taxes de prime :</th>
-                                                    <td class="p-1">{{round($earth->taxes,2)}}</td>
+                                                    <td class="p-1">{{number_format(round($earth->taxes,2),0,","," ")}}</td>
                                                 </tr>
                                                 <tr class="text-warning">
                                                     <th scope="row" class="p-1">Prime totale :</th>
-                                                    <td class="p-1">{{round($earth->prime)}}</td>
+                                                    <td class="p-1">{{number_format(round($earth->prime),0,","," ")}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row" class="p-1"><a href="{{route('earth.pdf', $earth->id)}}" class="btn btn-lg btn-block btn-outline-success" data-toggle="tooltip" title="pdf" data-placement="bottom"><i class="fas fa-print"></i> Imprimer</a></th>

@@ -26,6 +26,7 @@
           <div class="row">
             <div class="col-lg-8 text-center text-lg-start">
               <h1 data-aos="fade-right">Bienvenue sur FREE'Q</h1><a data-aos="fade-right" class="btn btn-outline-light" href="{{route("admin")}}">Connexion</a>
+              <p></p>
             </div>
           </div>
         </div>

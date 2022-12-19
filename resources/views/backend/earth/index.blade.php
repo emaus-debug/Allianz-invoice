@@ -49,7 +49,7 @@
                                     <td style="text-align: center">{{\App\Models\User::where('id', $item->user_id)->value('full_name')}}</td>
                                     <td style="text-align: center">{{\App\Models\Customer::where('id', $item->customer_id)->value('name')}}</td>
                                     <td style="text-align: center">{{$item->nature_marchandise}}</td>
-                                    <td style="text-align: center">{{round($item->prime)}}</td>
+                                    <td style="text-align: center">{{number_format(round($item->prime),0,","," ")}}</td>
                                     <td>
                                         <input type="checkbox" name="toogle" value="{{$item->id}}" data-toggle="switchbutton" {{$item->status=='valide' ? 'checked' : ''}} data-onlabel="valide" data-offlabel="soumis" data-size="sm" data-onstyle="success" data-offstyle="warning">
                                     </td>
